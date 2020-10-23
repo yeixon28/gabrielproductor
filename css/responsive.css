@@ -175,15 +175,7 @@ width:30px;
 height:30px;
 opacity: 0.5; 
 }
-#porta .row #dg-container{
- display:none;
-}
-#porta .row .dg-container{
- display:none;
-}
-#porta .row #carousel{
-	display:block;
-}
+
 footer ul li {
   width: 40px;
 	height: 40px;

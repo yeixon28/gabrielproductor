@@ -290,31 +290,31 @@ h1 span{
 	}
 }
 h1 span:nth-child(0){
-	animation-delay:10S;
+	animation-delay:3S;
 }
 h1 span:nth-child(1){
-	animation-delay:10.5S;
+	animation-delay:3.5S;
 }
 h1 span:nth-child(2){
-	animation-delay: 11S;
+	animation-delay: 4S;
 }
 h1 span:nth-child(3){
-	animation-delay: 11.5S;
+	animation-delay: 4.5S;
 }
 h1 span:nth-child(4){
-	animation-delay: 12S;
+	animation-delay: 5S;
 }
 h1 span:nth-child(5){
-	animation-delay: 12.5S;
+	animation-delay: 6.5S;
 }
 h1 span:nth-child(6){
-	animation-delay: 13S;
+	animation-delay: 7S;
 }
 h1 span:nth-child(7){
-	animation-delay: 13.5S;
+	animation-delay: 7.5S;
 }
 h1 span:nth-child(8){
-	animation-delay: 14S;
+	animation-delay: 8S;
 }
 
 
@@ -656,8 +656,7 @@ hr{
 	text-align: center;
 	margin:10px;
 	padding:10px;
-	-webkit-box-reflect: below px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
-
+	
 }
 .container h3{
 	color: rgba(105,5,255,1);
@@ -667,91 +666,25 @@ hr{
 }
 #porta .row #dg-container{
  display:block;
+ margin-bottom: 5%;
 }
 .dg-container{
-	height:450px;
+	height:auto;
 	position:relative;
 	margin: 0 auto;
 	display: block;
+	margin-bottom: 5%;
 }
-.dg-wrapper{
-	width: 481px;
-	height: 316px;
-	margin: 0 auto;
-	position: relative;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	-o-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-perspective: 1000px;
-	-moz-perspective: 1000px;
-	-o-perspective: 1000px;
-	-ms-perspective: 1000px;
-	perspective: 1000px;
+.tab-content{
+	background-color: #000;
 }
-.dg-wrapper a{
-	color: white;
-	width: 482px;
-	height: 316px;
-	display: block;
-	position: absolute;
-	padding:0;
-	left: 0;
-	top: 0;
-	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
-	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
-}
-
-
-.dg-wrapper a.dg-transition{
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.dg-wrapper a img{
-	display: block;
-	padding: 10px 0px 0px 0px;
-	-webkit-box-reflect: below px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
-}
-
-
- .dg-wrapper  a:hover{
-  background-color: transparent;
-}
-.dg-wrapper a.dg-center div{
-	display: block;
-}
-.dg-container nav{
-	width: 58px;
-	position: absolute;
-	z-index:20;
-	bottom: 40px;
-	left: 50%;
-	margin-left: -29px;
-}
-.dg-container nav span{
-	text-indent: -9000px;
-	float: left;
-	cursor:pointer;
-	width: 24px;
-	height: 25px;
-	opacity: 0.8;
-	background: transparent url(../img/arrows.png) no-repeat top left;
-}
-.dg-container nav span:hover{
-	opacity:1;
-}
-.dg-container nav span.dg-next{
-	background-position: top right;
-	margin-left: 10px;
-}
-
-
-
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #2196f3;
+    background-color: #000;
+	border-color: #2196f3 #2196f3 #2196f3;}
+.indigo {
+	background-color: #6905ff !important;
+	}
 .middle {
   transition: .5s ease;
   opacity: 1;
@@ -777,10 +710,7 @@ hr{
 }
 
 
-.carousel.slide{
-	-webkit-box-reflect: below px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
 
-}
 
 .carousel-inner iframe{
 	height:500px;
@@ -859,15 +789,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091742', end
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	z-index:5;
+	z-index:10;
 	transform: translateY(200px);
+	-webkit-box-shadow: 10px 13px 24px -10px rgba(13,244,252,1);
+	-moz-box-shadow: 10px 13px 24px -10px rgba(13,244,252,1);
+	box-shadow: 10px 13px 24px -10px rgba(13,244,252,1);
 	
-	-webkit-box-shadow: 9px 10px 16px -1px rgba(3,255,242,0.55);
--moz-box-shadow: 9px 10px 16px -1px rgba(3,255,242,0.55);
-box-shadow: 9px 10px 16px -1px rgba(3,255,242,0.55);
 	
 
 }
+
+
+
 .col-md-3 .card2:hover .face.face1{
 	transform: translateY(0);
 	box-shadow:none;
